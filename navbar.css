@@ -1,0 +1,137 @@
+body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+  
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 18px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: darkgray;
+}
+.icon-home:before {
+position: absolute;
+top: 9px;
+left: 30px;
+content: "";
+background: url(http://i.imgur.com/1CRy2G5.png);
+width: 24px;
+height: 25px;
+}
+
+.icon-home a span {
+    visibility:hidden;
+}
+
+
+
+#nav a:hover, a:active{
+    background-color: #CF5C3F;
+    color: #FFF;   
+} 
+
+#nav {
+    background-color: #898282;
+    width: 100%; 
+    margin-top: -1%;
+    margin-left: %;
+    text-align: center;
+    clear: both;
+    height: 50px;
+    border-radius: 1px;
+}
+#nav_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: %;
+    clear: both;
+    height: 50px;
+}
+#nav ul {
+	
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 100px;
+}
+#nav ul li {
+	margin-top: %;
+    display: inline-block;
+    width: 16.33%;
+    text-align:center;
+    clear: both;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+
+
+
+#nav ul li a, visited {
+    font-family: 'CFJackStory-Regular', Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+    color: white;
+    display: block;
+    padding: 14.2px;
+    text-decoration: none;
+    
+}
+
+#nav ul li:hover ul {
+     display: block;
+     border-bottom-left-radius: 5%;
+     border-bottom-right-radius: 5%;
+     width: auto;
+}
+
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 4px solid #222;
+    border-top: 0;
+    margin-left: 0%;
+    
+    z-index: 150;
+}
+
+
+
+#nav ul ul li {
+    display: block;
+    width:100%;
+}
+#nav ul ul li a:hover {
+    color: white;
+    font-size: 20px;
+}
+.button {
+    background-color: dimgray; /* Green */
+    float: right;
+    border: 3px solid white;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+
